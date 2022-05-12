@@ -2,6 +2,11 @@ import Campeon from '../../domain-layer/entities/Campeon';
 import DatabaseConnection from '../../persistence-layer/DatabaseConnection';
 import IAsyncTask from './IAsyncTask';
 
+<<<<<<< HEAD
+=======
+//no salia la eliminacion krnal que onda con eso 
+
+>>>>>>> main
 export default class DeleteCampeonTask implements IAsyncTask<void> {
   private campeonId: number;
   
@@ -14,5 +19,10 @@ export default class DeleteCampeonTask implements IAsyncTask<void> {
     const campeonRepository = databaseConnection.getRepository(Campeon);
 
     await campeonRepository.delete(this.campeonId);
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main
   }
 }
