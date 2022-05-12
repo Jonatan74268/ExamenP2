@@ -4,7 +4,6 @@ import IAsyncTask from './IAsyncTask';
 
 <<<<<<< HEAD
 =======
-//no salia la eliminacion krnal que onda con eso 
 
 >>>>>>> main
 export default class DeleteCampeonTask implements IAsyncTask<void> {
